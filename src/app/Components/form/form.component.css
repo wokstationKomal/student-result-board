@@ -1,0 +1,42 @@
+h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.registerForm{
+    width: 60%;
+    margin: auto;
+}
+
+.registerForm>div{
+    margin: 2rem 0;
+}
+
+.registerButton{
+    background-color: darkcyan;
+    border-radius: 25px;
+    padding: 10px 36px;
+    color: #ffffff;
+}
+
+form>div>input{
+    background-color: transparent;
+}
+
+form>div>input::placeholder{
+    color: ghostwhite;
+}
+
+@media only screen and (max-width: 425px) {
+    h2{
+      font-size: 1.5rem;
+    }
+
+    .registerForm{
+        width: 100%;
+    }
+  }
+  

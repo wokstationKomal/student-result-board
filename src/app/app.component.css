@@ -1,0 +1,28 @@
+/*header-start */
+nav{
+    background-color: #000000;
+}
+
+a, a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+i{
+    color: #ffffff;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+/*header-ends */
+
+@media only screen and (max-width: 1000px) {
+    nav>div>button{
+        padding-right: 0px;
+    }
+
+    nav>div>div>ul>li{
+        text-align: right;
+    }
+}

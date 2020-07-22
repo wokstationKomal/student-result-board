@@ -1,0 +1,157 @@
+{
+  "Student": [
+    {
+      "name": "rajiv",
+      "marks": {
+        "Maths": "20",
+        "English": "20",
+        "Science": "45"
+      },
+      "rollNumber": "KV2017-5A2"
+    },
+    {
+      "name": "abhishek",
+      "marks": {
+        "Maths": "23",
+        "English": "20",
+        "Science": "48"
+      },
+      "rollNumber": "KV2017-5A1"
+    },
+    {
+      "name": "zoya",
+      "marks": {
+        "Maths": "42",
+        "English": "31",
+        "Science": "50"
+      },
+      "rollNumber": "KV2017-5A3"
+    },
+    {
+      "name": "ravi",
+      "marks": {
+        "Maths": "20",
+        "English": "20",
+        "Science": "20"
+      },
+      "rollNumber": "KV2017-5A4"
+    },
+    {
+      "name": "akash",
+      "marks": {
+        "Maths": "50",
+        "English": "20",
+        "Science": "37"
+      },
+      "rollNumber": "KV2017-5A5"
+    },
+    {
+      "name": "raju",
+      "marks": {
+        "Maths": "48",
+        "English": "50",
+        "Science": "50"
+      },
+      "rollNumber": "KV2017-5A6"
+    },
+    {
+      "name": "santosh",
+      "marks": {
+        "Maths": "18",
+        "English": "19",
+        "Science": "45"
+      },
+      "rollNumber": "KV2017-5A7"
+    },
+    {
+      "name": "sanjeev",
+      "marks": {
+        "Maths": "43",
+        "English": "25",
+        "Science": "37"
+      },
+      "rollNumber": "KV2017-5A8"
+    },
+    {
+      "name": "zabi",
+      "marks": {
+        "Maths": "42",
+        "English": "31",
+        "Science": "50"
+      },
+      "rollNumber": "KV2017-5A9"
+    },
+    {
+      "name": "laxmi",
+      "marks": {
+        "Maths": "20",
+        "English": "20",
+        "Science": "20"
+      },
+      "rollNumber": "KV2017-5A10"
+    },
+    {
+      "name": "lohita",
+      "marks": {
+        "Maths": "50",
+        "English": "20",
+        "Science": "37"
+      },
+      "rollNumber": "KV2017-5A11"
+    },
+    {
+      "name": "arihant",
+      "marks": {
+        "Maths": "43",
+        "English": "50",
+        "Science": "5"
+      },
+      "rollNumber": "KV2017-5A12"
+    },
+    {
+      "name": "ameer",
+      "marks": {
+        "Maths": "20",
+        "English": "20",
+        "Science": "20"
+      },
+      "rollNumber": "KV2017-5A13"
+    },
+    {
+      "name": "sardar",
+      "marks": {
+        "Maths": "50",
+        "English": "20",
+        "Science": "37"
+      },
+      "rollNumber": "KV2017-5A14"
+    },
+    {
+      "name": "hari",
+      "marks": {
+        "Maths": "43",
+        "English": "50",
+        "Science": "50"
+      },
+      "rollNumber": "KV2017-5A15"
+    }
+  ],
+  "StudentForm": [
+    {
+      "name": "test",
+      "lastName": "name",
+      "studentClass": "5S",
+      "yearOfPassing": 2314,
+      "percentage": 1234,
+      "id": 3
+    },
+    {
+      "name": "qwerty",
+      "lastName": "wasd",
+      "studentClass": "5S",
+      "yearOfPassing": 2017,
+      "percentage": 12,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Student result board</h2>
+    <table>
+        <tr>
+          <th><i>Name</i></th>
+          <th><i>Roll Number</i></th>
+          <th><i>Marks</i></th>
+          <th><i>Status</i></th>
+        </tr>
+
+        <tr 
+        *ngFor="let list of studentList"
+        [ngStyle]="{'color':((list.marks.Maths <= 19) || (list.marks.English <= 19) || (list.marks.Science <= 19)) 
+        ? 'red' 
+        : (maxValue == list.marksList) ? 'green' : 'white' }">
+
+          <td>{{ list.name | titlecase }}</td>
+          <td>{{ list.rollNumber }}</td>
+          <td>{{ list.marksList }}</td>
+          <td>
+            <span *ngIf="((list.marks.Maths <= 19) || (list.marks.English <= 19) || (list.marks.Science <= 19)); else checkTopper">FAIL</span>
+            <ng-template #checkTopper>
+              <span *ngIf="maxValue == list.marksList; else passValue">TOPPER</span>
+              <ng-template #passValue>
+                <span >PASS</span>
+              </ng-template>
+            </ng-template>
+          </td>
+          
+        </tr>
+      </table>
+</div>
