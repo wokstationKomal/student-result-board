@@ -1,4 +1,8 @@
 # ResultBoard
+This board will show the result of all the student and this application also contain form with some validation.
+
+![result-board](https://user-images.githubusercontent.com/65625474/89213288-7a55f400-d5e2-11ea-8cf8-6d7a5d455278.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
 
